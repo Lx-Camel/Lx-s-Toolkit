@@ -2,4 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lx.tools">
 
+    <application>
+        <provider
+            android:name=".Util"
+            android:authorities="${applicationId}.contextprovider"
+            android:exported="false" />
+    </application>
+
 </manifest>
